@@ -1,0 +1,49 @@
+// BBot Configuration File
+
+name = "bBot 008";
+
+PID = {
+	motor_1 = {
+			windup_guard = 0;
+			proportional_gain = 700;
+			integral_gain = 0;
+			derivative_gain = 7;
+		}
+	motor_2 = {
+                        windup_guard = 0;
+                        proportional_gain = 700;
+                        integral_gain = 0;
+                        derivative_gain = 7;
+                }
+	position_1 = {
+                        windup_guard = 0;
+                        proportional_gain = .08;
+                        integral_gain = 0; 
+                        derivative_gain =.0008; 
+                }
+        position_2 = {
+                        windup_guard = 0;
+                        proportional_gain = .08;
+                        integral_gain = 0;
+                        derivative_gain = 0.0005;
+                }
+	bodyV = {
+                        windup_guard = 0;
+                        proportional_gain = 0.0005;
+                        integral_gain = 0; 
+                        derivative_gain = 0;
+                }	
+	wheelV = {
+                        windup_guard = 0;
+                        proportional_gain = 0; 
+                        integral_gain = 0;
+                        derivative_gain = 0;
+                }
+	yaw = {
+                        windup_guard = 0;
+                        proportional_gain = 0;
+                        integral_gain = 0;
+                        derivative_gain = 0;
+                }
+};
+
