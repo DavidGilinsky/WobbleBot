@@ -1,0 +1,10 @@
+# Eclipse CDT managed build output. Debug/BB.cfg and Debug/RTIMULib.ini are
+# runtime inputs and stay tracked.
+Debug/*
+!Debug/BB.cfg
+!Debug/BB.cfg.*
+!Debug/RTIMULib.ini
+Release/
+*.o
+*.d
+*.swp
